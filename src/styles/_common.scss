@@ -1,0 +1,23 @@
+.app {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-width: 18rem;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.expiry {
+    font-size: 0.9rem;
+    line-height: 2;
+
+    &--expired {
+        color: red;
+    }
+}
+
+.error {
+    color: red;
+}

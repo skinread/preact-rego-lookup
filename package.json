@@ -1,0 +1,27 @@
+{
+  "name": "rego-lookup-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Look up registoration details",
+  "author": "Sean Kinread",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.35",
+    "preact": "^10.4.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
