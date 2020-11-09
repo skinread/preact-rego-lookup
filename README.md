@@ -4,8 +4,6 @@ Sean Kinread
 
 ## Summary
 
-*Not all requirements have been implemented at this time. I would be happy to iterate on this app further, once I have been able to gain more information about the open position including further specific details around responsibilities.*
-
 ### Framework
 
 Preact X is used for this app, which is lightweight - well suited to proof of concepts - and nearly identical to a React app.
@@ -19,11 +17,6 @@ Preact X is used for this app, which is lightweight - well suited to proof of co
 5. Dates are formatted as DD MMMM YY
 6. API failure is handled and communicated to the user
 
-### Requirements not met
-1. Calculate and display registration as months remaining
-2. Unit testing
-3. Offline/cahcing (service worker)
-
 ## Setup
 
 Clone or unpack the repository and install its dependencies.
@@ -36,17 +29,6 @@ npm install
 
 Runs the app in development mode. Visit [http://localhost:1234](http://localhost:1234).
 
-### (not yet implemented) Test: `yarn test`
-
-Run the tests using the [jest](https://jestjs.io/) JavaScript testing framework.
-
-The jest configuration for this project is in `package.json`:
-
-```js
-"jest": {
-  "preset": "ts-jest"
-}
-```
 
 ### (not in use) Build: `npm build`
 
